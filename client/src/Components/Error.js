@@ -22,3 +22,4 @@ function Error({ error, setError }) {
 }
 
 export default Error;
+export const Value1 = {message: 'someError'}

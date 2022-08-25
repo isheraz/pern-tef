@@ -6,7 +6,7 @@ import Error from "./Components/Error";
 import "h8k-components";
 import axios from "axios";
 
-const title = "Hacker Dormitory";
+const title = "PERN Stack Demo";
 function App() {
   const [error, setError] = useState({ status: false, message: "" });
   const [studentList, setStudents] = useState([]);
